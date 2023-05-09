@@ -1,3 +1,85 @@
 :root {
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: flex;
+}
+
+.logo-side {
+    flex: 1;
+}
+
+.form-side {
+    flex: 2;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text {
+    padding: 20px;
+    background-color: rgb(248, 248, 248);
+}
+.hero-text > div {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.form-side > div:last-child {
+    background-color: rgb(248, 248, 248);
+}
+
+form {
+    padding: 25px;
+}
+
+legend {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.create-account {
+    appearance: none;
+    color: white;
+    background-color: #596D48;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+}   
+
+a { 
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    width: 400px;
+    gap: 5px;
+}
+
+li {
+    flex-direction: column;
+}
+
+li > label {
+    font-size: 0.75rem;
+}
+
+input {
+    max-width: 200px;
 }
