@@ -86,6 +86,23 @@ form {
     padding: 25px;
 }
 
+input {
+    height: 1.5rem;
+    max-width: 200px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+input:invalid {
+    border: 1px solid lightcoral;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 6px 2px lightgray;
+}
+
 legend {
     font-size: 1.25rem;
     font-weight: bold;
@@ -130,8 +147,4 @@ li {
 
 li > label {
     font-size: 0.75rem;
-}
-
-input {
-    max-width: 200px;
 }
