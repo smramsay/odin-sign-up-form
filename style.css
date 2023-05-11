@@ -103,6 +103,12 @@ input:invalid, .error {
     border: 1px solid red;
 }
 
+.pass-warning::after {
+    content: "* Passwords do not match";
+    color: red;
+    font-size: 0.75rem;
+}
+
 legend {
     font-size: 1.25rem;
     font-weight: bold;
