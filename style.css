@@ -99,8 +99,8 @@ input:focus {
     box-shadow: 2px 2px 6px 2px lightgray;
 }
 
-input:invalid {
-    border: 1px solid lightcoral;
+input:invalid, .error {
+    border: 1px solid red;
 }
 
 legend {
