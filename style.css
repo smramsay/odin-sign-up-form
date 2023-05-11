@@ -50,6 +50,9 @@
 }
 
 .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex: 1;
     padding: 20px;
     padding-right: 30%;
