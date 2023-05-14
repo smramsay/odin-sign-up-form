@@ -28,6 +28,16 @@ body {
     background-size: cover;
 }
 
+@media (max-width: 700px) {
+    .main-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .logo-side {
+        grid-row: 1;
+    }
+}
+
 .logo-container > span {
     font-family: "Odin";
     color: white;
