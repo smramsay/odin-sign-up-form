@@ -98,6 +98,8 @@ input:invalid, .error {
     content: "* Passwords do not match";
     color: red;
     font-size: 0.75rem;
+    position: absolute;
+    top: 50px;
 }
 
 legend {
@@ -150,6 +152,7 @@ li {
     display: flex;
     flex-direction: column;
     margin: 10px 0px;
+    position: relative;
 }
 
 li > label {
